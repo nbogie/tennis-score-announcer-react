@@ -1,0 +1,54 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+:root {
+    font-family: Inter, system-ui, Avenir, Helvetica, Arial, sans-serif;
+    line-height: 1.5;
+    font-weight: 400;
+}
+#root {
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 2rem;
+    text-align: center;
+}
+
+.app {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+}
+.scoreExamples {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border: 2px dashed gainsboro;
+    padding: 1rem;
+}
+
+.scoreExample {
+    font-family: "Courier New", Courier, monospace;
+    display: flex;
+    cursor: pointer;
+}
+
+.headerExample {
+    font-style: italic;
+}
+
+.playerScore {
+    min-width: 3.5ch;
+    padding: 0 0.3rem;
+    text-align: right;
+}
+
+.buttonRow {
+    display: flex;
+    gap: 0.3rem;
+}
+button {
+    font: inherit;
+}
